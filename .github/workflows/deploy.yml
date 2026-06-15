@@ -11,7 +11,7 @@ permissions:
   packages: write
 
 env:
-  IMAGE: ghcr.io/aimmetal-tech/gin-cicd-demo:latest
+  IMAGE: ghcr.io/aimmetal-tech/ci-cd-test:latest
 
 jobs:
   build-and-deploy:

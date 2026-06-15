@@ -1,6 +1,6 @@
 services:
   gin-cicd-demo:
-    image: ghcr.io/aimmetal-tech/gin-cicd-demo:latest
+    image: ghcr.io/aimmetal-tech/ci-cd-test:latest
     container_name: gin-cicd-demo
     restart: unless-stopped
     ports:

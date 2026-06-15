@@ -1,0 +1,9 @@
+services:
+  gin-cicd-demo:
+    image: ghcr.io/aimmetal-tech/gin-cicd-demo:latest
+    container_name: gin-cicd-demo
+    restart: unless-stopped
+    ports:
+      - "8088:8080"
+    environment:
+      - GIN_MODE=release

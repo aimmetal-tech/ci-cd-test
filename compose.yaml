@@ -1,6 +1,6 @@
 services:
   gin-cicd-demo:
-    image: ghcr.io/aimmetal-tech/ci-cd-test:latest
+    image: crpi-jaurwvbawqqf7cfi.cn-beijing.personal.cr.aliyuncs.com/aimmetal/ci-cd-test:latest
     container_name: gin-cicd-demo
     restart: unless-stopped
     ports:
